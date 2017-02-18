@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionSearch"
+        android:title="Search"
+        android:icon="@drawable/searchicon"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:title="Finished"
+        android:id="@+id/actionFinished"
+        android:icon="@drawable/taskcomplete"
+        />
+
+    <item android:title="About"
+        android:id="@+id/actionAbout"
+        android:icon="@drawable/info"
+        />
+</menu>
